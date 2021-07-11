@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">team clone</string>
+    <string name="create_new_account_sign_up">Create new Account? <b>Sign up</b></string>
+    <string name="already_have_a_account_sign_up">Already have a account? <b>Sign in</b></string>
+    <string name="facebook_app_id">2587958401514009</string>
+    <string name="fb_login_protocol_scheme">fb2587958401514009</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

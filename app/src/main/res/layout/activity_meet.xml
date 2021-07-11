@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".meetActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start meeting"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:layout_above="@id/codebox"
+        style="@style/TextAppearance.MaterialComponents.Headline6"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/codebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/joinbtn">
+
+        <EditText
+            android:id="@+id/codeboxEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Code Box"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/joinbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Join"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_below="@id/joinbtn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</RelativeLayout>

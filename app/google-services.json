@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "117161453334",
+    "firebase_url": "https://teamclone-22c7c-default-rtdb.firebaseio.com",
+    "project_id": "teamclone-22c7c",
+    "storage_bucket": "teamclone-22c7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117161453334:android:e89cdbdf93314091321237",
+        "android_client_info": {
+          "package_name": "com.example.teamclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117161453334-ph1mc5jm73t8o98s7algcp1i04qo588u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdmIVQ6WTTP2zVd2B7H9xy-XWU5iIMxhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117161453334-ph1mc5jm73t8o98s7algcp1i04qo588u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
